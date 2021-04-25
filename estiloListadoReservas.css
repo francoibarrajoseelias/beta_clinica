@@ -1,0 +1,59 @@
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+
+body{
+    font-family: sans-serif;
+    background-color: rgb(230, 230, 230);
+    color: black;
+}
+table{
+    margin: auto;
+    border-collapse: collapse;
+    border: rgb(12, 121, 223) 3px solid;
+    width: 500px;
+}
+th{
+    background: rgb(12, 121, 223);
+    color: #fff;
+    text-shadow: 2px 2px 5px black;
+}
+td{
+    border: 2px solid rgb(12, 121, 223);
+}
+
+th, td{
+    text-align: center;
+    padding: 0.5em;
+}
+
+.reservado {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    background-color: rgb(234 25 25);
+    border-radius: 5px;
+    padding: 5px;
+    width: 75px;
+}
+
+.libre{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    background-color: #00d206;
+    border-radius: 5px;
+    padding: 5px;
+    width: 75px;
+}
+
+
+.caption{
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+button{
+    border: none;
+    box-shadow: 1px 1px 3px black;
+}
